@@ -36,10 +36,10 @@
       }
     },
     "variables": {
-      "vNetName": "vnet-azureiac-kdk",
+      "vNetName": "vnet-azureiac-osh",
       "vNetSubnetName": "snet-be",
-      "vNetAddressPrefixes":"10.0.0.0/16",
-      "vNetSubnetAddressPrefix": "10.0.20.0/24",
+      "vNetAddressPrefixes":"10.1.0.0/16",
+      "vNetSubnetAddressPrefix": "10.1.20.0/24",
       "vmName": "[concat('vm',parameters('projectName'))]",
       "publicIPAddressName": "[concat('pip-',parameters('projectName'))]",
       "networkInterfaceName": "[concat('nic-',parameters('projectName'))]",
